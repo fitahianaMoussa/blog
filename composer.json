@@ -1,0 +1,17 @@
+{
+    "name": "vendor/myapp",
+    "description": "Projet php mvc poo",
+    "autoload": {
+        "psr-4": {
+            "Router\\": "routes/",
+            "App\\": "app/",
+            "Database\\": "database/"
+        }
+    },
+    "authors": [
+        {
+            "name": "fitahiana"
+        }
+    ],
+    "require": {}
+}
